@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Friendship Charter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#dde4ff;--paper:#fff;--ink:#1b2347;--mute:#5a6285;--acc:#e8457c;--gold:#e9a820;--line:#c9d1f0;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11162e;--paper:#1a2040;--ink:#e9ecff;--mute:#a4abd0;--acc:#ff7aa6;--gold:#f2b632;--line:#2f3866;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11162e;--paper:#1a2040;--ink:#e9ecff;--mute:#a4abd0;--acc:#ff7aa6;--gold:#f2b632;--line:#2f3866;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 16px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:19px/1.65 Newsreader,Georgia,serif}
+#bar{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:4px;width:0;background:var(--acc);z-index:5}
+.paper{max-width:760px;margin:28px auto;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:56px 44px 40px;position:relative;box-shadow:0 18px 50px rgba(27,35,71,.14)}
+.paper::before{content:"";position:absolute;inset:10px;border:2px solid var(--acc);border-radius:3px;pointer-events:none;opacity:.55}
+header{text-align:center;padding-bottom:24px}
+.seal{width:92px;height:92px;margin:0 auto 14px;display:block}
+h1{font:800 clamp(34px,8vw,54px)/1.05 Fraunces,Georgia,serif;margin:0 0 8px;letter-spacing:-.01em}
+.sub{font:italic 400 19px Fraunces,Georgia,serif;color:var(--mute);max-width:30em;margin:0 auto;text-align:center}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);margin:26px 0 0;border:1px solid var(--line);border-radius:4px;text-align:left}
+.meta div{padding:10px 14px;font-size:15px;line-height:1.35}
+.meta div+div{border-left:1px solid var(--line)}
+.meta b{display:block;font-family:Fraunces,Georgia,serif;font-size:14px;color:var(--acc)}
+details{border:1px dashed var(--line);border-radius:4px;margin:22px 0 8px;padding:0 16px;text-align:left}
+summary{cursor:pointer;font:600 17px Fraunces,Georgia,serif;padding:12px 0}
+summary:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+details ol{columns:2;column-gap:28px;margin:0;padding:0 0 14px 1.4em;font-size:16px}
+details a{color:var(--ink);text-decoration:none}
+details a:hover{color:var(--acc);text-decoration:underline}
+hr{border:0;border-top:1px solid var(--line);margin:30px 0}
+.pre{font-style:italic;font-size:20px}
+.pre::first-letter{font:800 3.4em/.8 Fraunces,Georgia,serif;float:left;margin:6px 10px 0 0;color:var(--acc)}
+h2{font:800 25px/1.2 Fraunces,Georgia,serif;margin:0 0 12px;text-decoration:underline wavy var(--gold);text-decoration-thickness:2px;text-underline-offset:7px}
+section{margin-bottom:6px}
+p{margin:0 0 12px;max-width:62ch}
+p b{font-family:Fraunces,Georgia,serif;font-weight:600}
+ol.l{margin:0 0 12px;padding-left:1.4em}
+ol.l li::marker{color:var(--acc);font-weight:600}
+.end{text-align:center;margin-top:34px;color:var(--mute);font:italic 17px Fraunces,Georgia,serif}
+.end svg{width:34px;height:34px;display:block;margin:0 auto 6px}
+#top{position:fixed;right:16px;bottom:calc(env(safe-area-inset-bottom,0px) + 16px);width:44px;height:44px;border-radius:50%;border:0;background:var(--acc);color:#fff;font:700 20px Fraunces,serif;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25);display:none;z-index:5}
+@media (max-width:620px){body{font-size:18px}.paper{margin:0;border-radius:0;border-left:0;border-right:0;padding:44px 22px 32px}.paper::before{inset:6px}.meta{grid-template-columns:1fr}.meta div+div{border-left:0;border-top:1px solid var(--line)}details ol{columns:1}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<main class="paper">
+<header>
+<svg class="seal" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="var(--gold)"/><circle cx="50" cy="50" r="38" fill="none" stroke="var(--paper)" stroke-width="2" stroke-dasharray="3 4"/><path d="M50 71C28 56 26 42 33 35c6-6 14-3 17 3 3-6 11-9 17-3 7 7 5 21-17 36z" fill="var(--acc)"/></svg>
+<h1>The Friendship Charter</h1>
+<div class="meta"><div><b>Parties</b>Two (2), thick as thieves</div><div><b>Enforcement</b>Snacks, mostly</div><div><b>Status</b>In effect upon mutual agreement</div></div>
+<details><summary>Table of contents</summary><ol id="toc"></ol></details>
+</header>
+<hr>
+<div id="doc"></div>
+<div class="end"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 82C22 62 20 42 29 33c8-8 18-4 21 4 3-8 13-12 21-4 9 9 7 29-21 49z" fill="var(--acc)"/></svg>End of Charter. No terms were skimmed in the making of this friendship.</div>
+</main>
+<button id="top" aria-label="Back to top">↑</button>
+<script>
+var D=[
+["Preamble",[[0,"We, the two founding members of this friendship, hereby declare that we like each other far too much to leave things to chance. This Charter exists to protect our bond, keep the laughs flowing, and ensure that neither of us ever has to wonder where we stand. It is binding in spirit, enforceable by snacks, and non-negotiable on the matter of loyalty."]],1],
+["Article I: Purpose",[[0,"To provide mutual support, shared laughter, and reliable access to snacks."]]],
+["Article II: Rights of Members",[[0,"Every member has the right to be heard, to vent without being fixed, and to be reminded of past bad haircuts only in a loving way."]]],
+["Article III: Duties of Members",[[0,"Show up when it matters. Reply to messages within a reasonable time (ignoring each other for more than 72 hours requires a formal apology). Keep each other’s secrets."]]],
+["Article IV: Code of Conduct",[[0,"No ghosting. No canceling plans on the day unless there is a real emergency (being “tired” is a gray area, and the Council will rule on it). For the purposes of this Charter, the Council consists of both members, and in case of a tie, snacks decide."]]],
+["Article V: Dispute Resolution",[[0,"Conflicts are settled by honest conversation, followed by food. Pettiness is permitted, grudges are not."]]],
+["Article VI: Amendments",[[0,"This charter may be changed by majority vote, or whenever someone makes a really good argument. (See also Article XIX, which sets out the exact procedure.)"]]],
+["Article VII: Communication",[["Section 1. Calls.","The members shall speak on a call at least once or twice a week. Calls are the heartbeat of this friendship and shall not be skipped without a decent reason."],["Section 2. Texts.","Neither member shall go more than two (2) days without texting the other. Silence beyond this limit is considered a minor offense and shall be treated under Article XVIII."],["Section 3. Reply Time.","Replies should be prompt and made with genuine effort. A “seen” with no reply is a crime against friendship unless followed by a reply within a reasonable time."],["Section 4. Mode of Communication.","Calls and texts are equally valid, but neither may fully replace the other. A friendship run entirely on memes is acceptable only in moderation."]]],
+["Article VIII: Time Together",[["Section 1. Current Status.","The members acknowledge that they have not yet met in person. This is recorded here as a historic fact and a future plot twist."],["Section 2. Future Meetings.","The members shall decide together, and in good time, when and how they will begin meeting. Neither shall be pressured, and neither shall disappear when the plan is made."],["Section 3. First Meeting.","The first meeting shall be treated as a ceremonial occasion. Expect hugs, awkward silence for the first four minutes, and photographic evidence."]]],
+["Article IX: Flirting",[["Section 1. The Three Conditions.","Flirting between the members is permitted only when all three of the following conditions are met:",["<b>Mood.</b> Both members are in the mood for it. Flirting at a bad moment is just noise.","<b>Mutual Agreement.</b> Both members are comfortable and openly agree to it. Either member may call a stop at any time, no explanation needed.","<b>Relationship Status.</b> Both members are single. If either member is in a relationship, flirting is suspended until further notice."]],["Section 2. No Harm to the Friendship.","Flirting is a game, not a contract. It shall never change, damage, or awkwardly complicate the friendship. If it ever does, it ends, and the friendship continues as before."]]],
+["Article X: Other Friends and Partners",[["Section 1. Partners May Change.","The members acknowledge that partners may come and go over time. This is natural, and each member shall support the other through all such changes."],["Section 2. The Friendship Shall Not Change.","No matter who enters or leaves their lives, the friendship remains constant and shall not be reduced, replaced, or renegotiated because of a new person."],["Section 3. No Third-Party Interference.","No third person, whether friend, partner, relative, or stranger on the internet, shall interfere in this friendship, influence its terms, or come between the members. Any outsider who tries shall be politely ignored."]]],
+["Article XI: Secrets and Privacy",[["Section 1. The Vault.","Everything the members discuss with each other stays between them. The friendship is a vault, and both members hold a key."],["Section 2. Permission Required.","Nothing shall be shared with any outside person without the explicit permission of the other member. “I thought they wouldn’t mind” is not permission."],["Section 3. Screenshots.","Screenshots of private conversations shall not be shown to anyone without permission. Violators shall face the full weight of Article XVIII."]]],
+["Article XII: Honesty",[["Section 1. Be Blunt.","The members shall be direct and blunt with each other. Sugarcoating is allowed only on actual desserts."],["Section 2. Nothing to Hide.","Neither member shall hide anything from the other. Where there is a truth, it shall be told."],["Section 3. Spirit of Honesty.","Bluntness is meant to help, not to hurt. Hard truths shall be spoken with care, even if the care is wrapped in sarcasm."]]],
+["Article XIII: Fights and Apologies",[["Section 1. Do Not Fight.","The members shall make every effort not to fight with each other."],["Section 2. If a Fight Occurs.","Should a fight happen despite Section 1, it shall be resolved as soon as possible. Delay is not a strategy."],["Section 3. Quick and Apologetic.","Resolution shall be swift and apologetic. Both members shall own their part, say sorry properly, and move on without scorekeeping."],["Section 4. Why It Matters.","The members recognize that they cannot stay without each other. Therefore no fight, however big, shall be allowed to outlive the day it began if it can possibly be avoided."]]],
+["Article XIV: Emotional Support",[["Section 1. Always Check In.","The members shall check in on each other often, and more than once when things are hard. One “how are you” is a start, not a finish."],["Section 2. Always Have Each Other’s Back.","In every situation, in every argument with outsiders, and in every moment of doubt, each member stands firmly with the other."],["Section 3. Venting.","The right to vent, as granted in Article II, remains fully protected. Advice shall be offered only when asked for, or when the situation is clearly on fire."]]],
+["Article XV: Jokes and Teasing",[["Section 1. No Limits.","There shall be no limit on jokes and teasing between the members. Mocking each other is not only allowed but encouraged and considered a core activity."],["Section 2. Fun Above All.","All teasing is made in love and fun. Both members consent to being roasted at any time, in any group chat, on any day of the week."]]],
+["Article XVI: Safety",[[0,"The members shall look out for each other’s well-being at all times. Each shall let the other know when they have reached home safe and shall be available in case of trouble. Beyond this, the matter shall be left as it is."]]],
+["Article XVII: Total Sharing",[["Section 1. Share Everything.","The members shall share each and every thing with each other, including the tiniest, most ordinary details of their day. Nothing is too small. The color of your lunch is a valid update."],["Section 2. Snaps Without Asking.","Each member may send snaps to the other at any time, without asking for permission first and without needing a reason. No “can I send you something?” Just send it."],["Section 3. Equal Exchange.","Sharing flows both ways. Each member shall make a reasonable effort to respond in kind and not leave the other talking to a wall."]]],
+["Article XVIII: Breach of the Charter",[["Section 1. What Counts as a Breach.","A breach occurs when a member violates any Article of this Charter."],["Section 2. The Penalty.","The member who breaches the Charter must do whatever the other member says, as a penalty. The wronged member holds the power to name the penalty."],["Section 3. Limits of the Penalty.","The penalty shall be reasonable. It must not be unsafe, illegal, or truly humiliating, and it should preferably involve food, memes, or embarrassing public declarations."],["Section 4. Completion.","Once the penalty is carried out, the matter is closed, and it shall not be brought up again as ammunition, except in jokes."]]],
+["Article XIX: Amending the Charter",[["Section 1. Mutual Consent.","Both members have equal power to change this Charter. Any amendment requires the agreement of both."],["Section 2. Procedure.","A member who wants a change shall propose it openly. If both agree, it becomes part of the Charter. If not, the existing text stands."],["Section 3. Permanence.","The friendship itself is not up for amendment."]]],
+["Article XX: Final Provisions",[[0,"This Charter takes effect from the moment both members sign it, whether in ink, in text, or in a dramatic voice message. It is meant to be read, laughed at, remembered, and, when necessary, quoted dramatically in an argument."]]]
+];
+var doc=document.getElementById("doc"),toc=document.getElementById("toc"),h="",t="";
+D.forEach(function(a,i){
+h+='<section id="c'+i+'"><h2>'+a[0]+'</h2>';
+a[1].forEach(function(s){
+if(s[0]===0)h+='<p'+(a[2]?' class="pre"':'')+'>'+s[1]+'</p>';
+else{h+='<p><b>'+s[0]+'</b> '+s[1]+'</p>';
+if(s[2])h+='<ol class="l">'+s[2].map(function(x){return'<li>'+x+'</li>'}).join('')+'</ol>';}
+});
+h+='</section>'+(i<D.length-1?'<hr>':'');
+t+='<li><a href="#c'+i+'" onclick="this.closest(\'details\').open=false">'+a[0].replace(/^Article [IVXL]+: /,'')+'</a></li>';
+});
+doc.innerHTML=h;toc.innerHTML=t;
+var bar=document.getElementById("bar"),tp=document.getElementById("top");
+function sc(){var m=document.documentElement.scrollHeight-innerHeight,p=m>0?scrollY/m:0;bar.style.width=(p*100)+"%";tp.style.display=scrollY>600?"block":"none"}
+addEventListener("scroll",sc,{passive:true});sc();
+tp.onclick=function(){scrollTo({top:0})};
+</script>
+</body>
+</html>
